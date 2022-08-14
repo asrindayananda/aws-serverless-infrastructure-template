@@ -37,4 +37,4 @@ Javascript file
 debugging/debug.js
 
 # Credits 
-- [Create Lambda API Gateway in Terraform](https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=terraform/aws
+- [Create Lambda API Gateway in Terraform](https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=terraform/aws)
