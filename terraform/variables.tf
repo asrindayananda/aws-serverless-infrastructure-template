@@ -7,7 +7,7 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-variable "travel_buddy_lambda_bucket_name" {
+variable "bucket_name" {
   description = "Bucket name for travel buddy lambda"
 
   type    = string
