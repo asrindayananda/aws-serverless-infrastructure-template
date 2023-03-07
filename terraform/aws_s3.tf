@@ -35,3 +35,14 @@ resource "aws_s3_bucket_ownership_controls" "example" {
     object_ownership = "BucketOwnerPreferred"
   }
 }
+
+# Provides a S3 bucket server-side encryption configuration resource.
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_server_side_encryption_configuration
+resource "aws_s3_bucket_server_side_encryption_configuration" "example" {
+  bucket = var.bucket_name
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm     = "AES256"
+    }
+  }
+}
